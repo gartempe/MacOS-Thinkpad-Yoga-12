@@ -116,4 +116,20 @@ Then add and call an additional SSDT-LED.aml file that create a new method WAKH 
 
 ### 2. HiDPI
 
+Reference guide: https://www.tonymacx86.com/threads/adding-using-hidpi-custom-resolutions.133254/
+
+#### 1. Enable HiDPI
+
+```
+sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool YES
+sudo defaults delete /Library/Preferences/com.apple.windowserver DisplayResolutionDisabled
+```
+#### 2. Generate a display override plist
+
+https://comsysto.github.io/Display-Override-PropertyList-File-Parser-and-Generator-with-HiDPI-Support-For-Scaled-Resolutions/
+
 VendorID: 30e4 | ProductID: 437
+
+#### 3. Use RDM to switch resolution
+
+https://github.com/avibrazil/RDM
