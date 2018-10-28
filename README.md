@@ -61,3 +61,43 @@ CPU, Graphic Card, Power Management, Battery, Sleep, Camera, Screen (FHD), brigh
 #### What will partially work:
 - Tablet digitzer (with stylus): recognized as amouse with button
 - SD Card reader: a driver is under development, but not yet stable enough
+
+## Installation
+
+....
+
+## Post-Installation
+
+### 1. Hotpaches
+
+It consitst of a combinaison of ACPI replacements done in Clover plist and also SDST files.
+
+#### Brightness Hotkeys
+
+#### Brightness Hotkeys
+
+#### Fix LED blinking after waking up from sleep
+
+Replace method "WAKH"
+14 4E 41 57 41 4B 48 09
+
+by method "WAKO"
+14 4E 41 57 41 4B 4F 09
+
+```
+dict>
+      <key>Comment</key>
+      <string>change Method(WAKH to WAKO</string>
+      <key>Disabled</key>
+      <false/>
+      <key>Find</key>
+      <data>
+      FE5BV0FLSAk=
+      </data>
+      <key>Replace</key>
+      <data>
+      FE5BV0FLTwk=
+      </data>
+</dict>
+```
+Then add and call an additional SSDT-LED.aml file that create a new method WAKH which calls the LED ON status: \_SI._SST (0x00) on wake up
