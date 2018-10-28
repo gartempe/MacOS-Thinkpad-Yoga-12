@@ -45,9 +45,13 @@ If you get error message "secure flash athentication failed" while updating the 
 ### 3. Know your hardware
 
 - CPU: Intel Core i-5 5200U
-- GFX: Intel HD 5500
+- GFX: Intel HD Graphics 5500
 - Wifi Intel -> Should be replaced by a Broadcom compatible WLAN card
 - 8GB Ram
+- Realtek RTS5227 PCI Express Card Reader
+- Synaptics Touch Digitizer V04 (USB Internal port)
+- CON4B2E72 Integrated Camera (USB Internal port)
+
 - 
 - Onelink Pro Dock port for extension module
 
@@ -72,11 +76,9 @@ CPU, Graphic Card, Power Management, Battery, Sleep, Camera, Screen (FHD), brigh
 
 It consitst of a combinaison of ACPI replacements done in Clover plist and also SDST files.
 
-#### Brightness Hotkeys
+#### 1. USB power management, port limiting and fix instant wake-up
 
-#### Brightness Hotkeys
-
-#### Fix LED blinking after waking up from sleep
+#### 2. Fix LED blinking after waking up from sleep
 
 In config.plist,replace method "WAKH"
 14 4E 41 57 41 4B 48 09
@@ -101,3 +103,5 @@ dict>
 </dict>
 ```
 Then add and call an additional SSDT-LED.aml file that create a new method WAKH which calls the LED ON status: \_SI._SST (0x00) on wake up
+
+#### 3. Brightness Hotkeys
