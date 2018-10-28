@@ -1,7 +1,6 @@
 # MacOS on Thinkpad Yoga 12
 Hackintosh MacOS Mojave on Thinkpad Yoga 12 with ACPI hotpatches
 
-------------------
 ## Pre-Installation
 
 ### 1. Warning - Achtung - Attention : check you BIOS version !!!
@@ -33,7 +32,6 @@ If you get error message "secure flash athentication failed" while updating the 
 
 *Note: my installation guide will be based on Bios version 1.20.*
 
----------------------
 
 ### 2. BIOS settings
 
