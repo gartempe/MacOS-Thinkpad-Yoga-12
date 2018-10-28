@@ -30,7 +30,7 @@ So if you want to be able to replace the Wifi card with a MacOS compatible card,
 Due to so many horror stories and laptop bricked by BIOS update done from within Windows, I highly recommand to update BIOS only from bootable media (CD or USB thumb). Here you can find ISO file to download: https://support.lenovo.com/fr/fr/downloads/ds102287
 If you get error message "secure flash athentication failed" while updating the BIOS, you should disable first "rollback prevention " in BIOS settings.
 
-*Note: my installation guide will be based on Bios version 1.20.*
+**Note: my installation guide will be based on Bios version 1.20.**
 
 
 ### 2. BIOS settings
@@ -62,7 +62,7 @@ CPU, Graphic Card, Power Management, Battery, Sleep, Camera, Screen (FHD), brigh
 - ST Sensor Hub: gyroscope, rotation detection, luminosity detection..
 
 #### What will partially work:
-- Tablet digitzer (with stylus): recognized as amouse with button
+- Tablet digitzer (with stylus): recognized as a mouse with button
 - SD Card reader: a driver is under development, but not yet stable enough
 
 ## Installation
@@ -82,7 +82,7 @@ CPU, Graphic Card, Power Management, Battery, Sleep, Camera, Screen (FHD), brigh
 
 ### 2. Hotpaches
 
-It consitsts of a combinaison of ACPI replacements done in Clover plist and also SDST files.
+It consitsts of a combinaison of ACPI replacements done in Clover plist along with additional custom SDST files.
 
 #### 1. USB power management, port limiting and fix instant wake-up
 
@@ -138,4 +138,5 @@ https://github.com/avibrazil/RDM
 
 ### 2. CPU Low Frequency Mode
 
-
+By default in Macbook Air 7.1 and 7.2 CPU lowest CPU frequency is 1300Mhz, while the i5-5200U can go lower to 800Mhz on idle or basic load. This means your CPU will consume too much power (and so drain battery) when on low frequency.
+To fix that, you can patch the frequency vectors.
