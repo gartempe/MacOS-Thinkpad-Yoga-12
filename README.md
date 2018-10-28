@@ -110,7 +110,7 @@ dict>
       </data>
 </dict>
 ```
-Then add and call an additional SSDT-LED.aml file that create a new method WAKH which calls the LED ON status: \_SI._SST (0x00) on wake up
+Then add and call an additional SSDT-LED.aml file that create a new method WAKH which calls the LED ON status \\_SI._SST (0x00) on wake up
 
 #### 3. Brightness Hotkeys
 
