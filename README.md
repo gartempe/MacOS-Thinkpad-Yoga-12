@@ -126,9 +126,11 @@ sudo defaults delete /Library/Preferences/com.apple.windowserver DisplayResoluti
 ```
 #### 2. Generate a display override plist
 
-https://comsysto.github.io/Display-Override-PropertyList-File-Parser-and-Generator-with-HiDPI-Support-For-Scaled-Resolutions/
+You can either copy my custom override folder in /System/Library/Displays/Contents/Resources/Overrides/ or generate your own at https://comsysto.github.io/Display-Override-PropertyList-File-Parser-and-Generator-with-HiDPI-Support-For-Scaled-Resolutions/
 
-VendorID: 30e4 | ProductID: 437
+LCD panel reference in Yoga 12 is :
+- VendorID: 30e4
+- ProductID: 437
 
 #### 3. Use RDM to switch resolution
 
