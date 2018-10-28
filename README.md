@@ -40,7 +40,7 @@ If you get error message "secure flash athentication failed" while updating the 
 - Disable Computrace
 - Disable Vtd / Vtx
 - Enable CSM
-- Enable US3
+- Enable USB3
 
 ### 3. Know your hardware
 
@@ -52,7 +52,7 @@ If you get error message "secure flash athentication failed" while updating the 
 - Onelink Pro Dock port for extension module
 
 #### What will work:
-CPU, Graphic Card, Power Management, Battery, Sleep, Camera, Screen (FHD), brightness, HiDPI, Keyboard, Trackpad and Trackpoint, Sound, HDMI port, Onelink Pro Dock (USB2/USB3, DisplayPort, DVI, Ethernet).
+CPU, Graphic Card, Power Management, Battery, Sleep, Camera, Screen (FHD), brightness, HiDPI, Keyboard, Trackpad and Trackpoint, Sound, USB ports, HDMI port, Onelink Pro Dock (USB2/USB3, DisplayPort, DVI, Ethernet).
 
 #### What will not work:
 - Touchscreen
