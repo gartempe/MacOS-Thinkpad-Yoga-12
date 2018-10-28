@@ -138,7 +138,7 @@ https://github.com/avibrazil/RDM
 
 ### 2. CPU Low Frequency Mode
 
-By default in Macbook Air 7.1 and 7.2 CPU lowest CPU frequency is 1300Mhz, while the i5-5200U can go lower to 800Mhz on idle or basic load. This means your CPU will consume too much power (and so drain battery) when on low frequency.
+By default in Macbook Air 7.1 and 7.2 CPU lowest CPU frequency is 1300Mhz, while the i5-5200U can go lower to 800Mhz on idle or basic load. This means, as-is, your CPU will consume too much power (and so drain battery) when on low frequency.
 To fix that, you can patch the frequency vectors.
 
 > Notice: The LFM frequency in Mac-9F18E312C5C2BF0B.plist is set to 1300 MHz!
