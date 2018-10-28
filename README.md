@@ -1,10 +1,10 @@
-# MacOS-Thinkpad-Yoga-12
+# MacOS on Thinkpad Yoga 12
 Hackintosh MacOS Mojave on Thinkpad Yoga 12 with ACPI hotpatches
 
 ------------------
 ## Pre-Installation
 
-### Warning - Achtung - Attention : check you BIOS version !!!
+### 1. Warning - Achtung - Attention : check you BIOS version !!!
 
 There is a know bug in embeded controller, where **CPU fan stop triggering**. This has been fixed with Bios version 1.20.
 
@@ -12,16 +12,29 @@ There is a know bug in embeded controller, where **CPU fan stop triggering**. Th
 
 **So you should update BIOS to version 1.20 at minimum !**
 
+BIOS Summary of Changes at https://download.lenovo.com/pccbbs/mobiles/jeuj84ww.txt
+
 <1.20>
 - (New) Updated Fan table
 - (Fix) Fixed an issue that Fan stops working even when temperature reaching trigger point.
 
-Note about BIOS: 
+...
+
 <1.08>
 - (New) Removed authentication of WLAN cards.
 
-Source: Summary of Changes at https://download.lenovo.com/pccbbs/mobiles/jeuj84ww.txt
 
 So if you want to be able to replace the Wifi card with a MacOS compatible card, Bios version 1.08 or above is mandatory.
 
+--> Version 1.20 or later recommended.
+
 ---------------------
+
+### 2. BIOS settings
+
+- Disable Computrace
+- Disable Vtd / Vtx
+- Enable CSM
+- Enable US3
+
+### 3. Know your hardware
