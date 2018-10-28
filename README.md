@@ -46,6 +46,7 @@ If you get error message "secure flash athentication failed" while updating the 
 
 - CPU: Intel Core i-5 5200U
 - GFX: Intel HD Graphics 5500
+- Display 12.5" FHD IPS LCD (VendorID: 30e4 | ProductID: 437)
 - Wifi Intel -> Should be replaced by a Broadcom compatible WLAN card
 - 8GB Ram
 - Realtek RTS5227 PCI Express Card Reader
@@ -72,9 +73,18 @@ CPU, Graphic Card, Power Management, Battery, Sleep, Camera, Screen (FHD), brigh
 
 ## Post-Installation
 
-### 1. Hotpaches
+### 1. Tools needed
 
-It consitst of a combinaison of ACPI replacements done in Clover plist and also SDST files.
+- Clover Installer
+- Clover configurator
+- MacIasl
+- iasl
+
+...
+
+### 2. Hotpaches
+
+It consitsts of a combinaison of ACPI replacements done in Clover plist and also SDST files.
 
 #### 1. USB power management, port limiting and fix instant wake-up
 
@@ -105,3 +115,7 @@ dict>
 Then add and call an additional SSDT-LED.aml file that create a new method WAKH which calls the LED ON status: \_SI._SST (0x00) on wake up
 
 #### 3. Brightness Hotkeys
+
+### 2. HiDPI
+
+VendorID: 30e4 | ProductID: 437
