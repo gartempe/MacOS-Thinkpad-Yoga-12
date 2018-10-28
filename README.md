@@ -6,7 +6,7 @@ Hackintosh MacOS Mojave on Thinkpad Yoga 12 with ACPI hotpatches
 
 ### 1. Warning - Achtung - Attention : check you BIOS version !!!
 
-There is a know bug in embeded controller, where **CPU fan stop triggering**. This has been fixed with Bios version 1.20.
+There is a known bug in embeded controller, where **CPU fan stop triggering**. This has been fixed with Bios version 1.20.
 
 *I've experimented this bug (with BIOS 1.03 JEET47WW), and the CPU rises up quickly to 99°C at full load (even with short load). This is extremly dangerous for the health and lifespan of your laptop.*
 
