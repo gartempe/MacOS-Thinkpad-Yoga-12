@@ -78,7 +78,7 @@ It consitst of a combinaison of ACPI replacements done in Clover plist and also 
 
 #### Fix LED blinking after waking up from sleep
 
-Replace method "WAKH"
+In config.plist,replace method "WAKH"
 14 4E 41 57 41 4B 48 09
 
 by method "WAKO"
