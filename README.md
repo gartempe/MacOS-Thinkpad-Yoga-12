@@ -135,3 +135,7 @@ LCD panel reference in Yoga 12 is :
 #### 3. Use RDM to switch resolution
 
 https://github.com/avibrazil/RDM
+
+### 2. CPU Low Frequency Mode
+
+
