@@ -28,6 +28,10 @@ So if you want to be able to replace the Wifi card with a MacOS compatible card,
 
 --> Version 1.20 or later recommended.
 
+Due to so many horror stories and laptop bricked by BIOS update done from within Windows, I highly recommand to update BIOS only from bootable media (CD or USB thumb). Here you can find ISO file to download: https://support.lenovo.com/fr/fr/downloads/ds102287
+
+*Note: my installation guide will be based on Bios version 1.20.*
+
 ---------------------
 
 ### 2. BIOS settings
