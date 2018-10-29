@@ -86,6 +86,23 @@ It consitsts of a combinaison of ACPI replacements done in Clover plist along wi
 
 #### 1. USB power management, port limiting and fix instant wake-up
 
+Adapted from this guide: https://www.tonymacx86.com/threads/guide-usb-power-property-injection-for-sierra-and-later.222266/
+In config.plist rename EC0 to EC, in order to get proper access to embedded controller:
+
+```
+<dict>
+	<key>Comment</key>
+	<string>change EC0 to EC</string>
+	<key>Disabled</key>
+	<true/>
+	<key>Find</key>
+	<data>RUMwXw==</data>
+	<key>Replace</key>
+	<data>RUNfXw==</data>
+</dict>
+```
+and compile [SSDT-GPRW.dsl](https://github.com/RehabMan/OS-X-Clover-Laptop-Config/blob/master/hotpatch/SSDT-GPRW.dsl) to SSDT-GPRW.aml with MaciASL and add it to /Clover/ACPI/Patched/
+
 #### 2. Fix LED blinking after waking up from sleep
 
 In config.plist, replace method "WAKH"
