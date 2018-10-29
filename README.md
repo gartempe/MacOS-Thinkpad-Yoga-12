@@ -126,13 +126,15 @@ sudo defaults delete /Library/Preferences/com.apple.windowserver DisplayResoluti
 ```
 #### 2. Generate a display override plist
 
-You can either copy my custom override folder [DisplayVendorID-30e4](https://github.com/gartempe/MacOS-Thinkpad-Yoga-12/tree/master/HiDPI) (copy the whole "DisplayVendorID-30e4" folder) in /System/Library/Displays/Contents/Resources/Overrides/ or generate your own at https://comsysto.github.io/Display-Override-PropertyList-File-Parser-and-Generator-with-HiDPI-Support-For-Scaled-Resolutions/ (also read the doc at the bottom of the page).
-
-LCD panel reference in Yoga 12 is :
-- VendorID: 30e4
-- ProductID: 437
+I don't have eagle eyes anymore to read confortably at 1920x1080 pixels on a 12.5" screen... So I tried to use scaled resolutions, but vthen erything is blurry. That's why I've used HiDPI feature to get crisp and clear scaled resolutions.
 
 My custom override folder is set for 1920x1080 native resolution + 1600x900 scaled HiDPI + 1366x768 scaled HiDPI.
+
+You can either copy my custom override folder [DisplayVendorID-30e4](https://github.com/gartempe/MacOS-Thinkpad-Yoga-12/tree/master/HiDPI) (copy the whole "DisplayVendorID-30e4" folder) in /System/Library/Displays/Contents/Resources/Overrides/ or generate your own at https://comsysto.github.io/Display-Override-PropertyList-File-Parser-and-Generator-with-HiDPI-Support-For-Scaled-Resolutions/ (also read the doc at the bottom of the page).
+
+If you want to generate your own resolutions override, the LCD panel references in Yoga 12 are :
+- VendorID: 30e4
+- ProductID: 437
 
 #### 3. Use RDM to switch resolution
 
