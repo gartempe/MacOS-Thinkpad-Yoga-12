@@ -87,6 +87,7 @@ It consitsts of a combinaison of ACPI replacements done in Clover plist along wi
 #### 1. USB power management, port limiting and fix instant wake-up
 
 Adapted from this guide: https://www.tonymacx86.com/threads/guide-usb-power-property-injection-for-sierra-and-later.222266/
+
 In config.plist rename EC0 to EC, in order to get proper access to embedded controller:
 
 ```
@@ -94,11 +95,29 @@ In config.plist rename EC0 to EC, in order to get proper access to embedded cont
 	<key>Comment</key>
 	<string>change EC0 to EC</string>
 	<key>Disabled</key>
-	<true/>
+	<false/>
 	<key>Find</key>
 	<data>RUMwXw==</data>
 	<key>Replace</key>
 	<data>RUNfXw==</data>
+</dict>
+```
+sdsd
+
+```
+<dict>
+	<key>Comment</key>
+	<string>change Method(GPRW,2,N) to XPRW, pair with SSDT-GPRW.aml</string>
+	<key>Disabled</key>
+	<false/>
+	<key>Find</key>
+	<data>
+	FEUIR1BSVwI=
+	</data>
+	<key>Replace</key>
+	<data>
+	FEUIWFBSVwI=
+	</data>
 </dict>
 ```
 and compile [SSDT-GPRW.dsl](https://github.com/RehabMan/OS-X-Clover-Laptop-Config/blob/master/hotpatch/SSDT-GPRW.dsl) to SSDT-GPRW.aml with MaciASL and add it to /Clover/ACPI/Patched/
@@ -130,6 +149,38 @@ by method "WAKO"
 Then add and call an additional SSDT-LED.aml file that create a new method WAKH which calls the LED ON status \\_SI._SST (0x00) on wake up
 
 #### 3. Brightness Hotkeys
+
+```
+<dict>
+	<key>Comment</key>
+	<string>change Method(_Q14,0,S) to XQ14</string>
+	<key>Disabled</key>
+	<false/>
+	<key>Find</key>
+	<data>
+	X1ExNA==
+	</data>
+	<key>Replace</key>
+	<data>
+	WFExNA==
+	</data>
+</dict>
+<dict>
+	<key>Comment</key>
+	<string>change Method(_Q15,0,S) to XQ15</string>
+	<key>Disabled</key>
+	<false/>
+	<key>Find</key>
+	<data>
+	X1ExNQ==
+	</data>
+	<key>Replace</key>
+	<data>
+	WFExNQ==
+	</data>
+</dict>
+```
+
 
 ### 2. HiDPI
 
