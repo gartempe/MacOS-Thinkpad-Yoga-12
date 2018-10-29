@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DisplayProductID</key>
+	<integer>1079</integer>
+	<key>DisplayProductName</key>
+	<string>Yoga12</string>
+	<key>DisplayVendorID</key>
+	<integer>12516</integer>
+	<key>scale-resolutions</key>
+	<array>
+		<data>
+		AAAKAAAABaAAAAABACAAAA==
+		</data>
+		<data>
+		AAAFAAAAAtAAAAABACAAAA==
+		</data>
+		<data>
+		AAAHgAAABDgAAAABACAAAA==
+		</data>
+		<data>
+		AAAMgAAABwgAAAABACAAAA==
+		</data>
+		<data>
+		AAAGQAAAA4QAAAABACAAAA==
+		</data>
+		<data>
+		AAAKrAAABgAAAAABACAAAA==
+		</data>
+		<data>
+		AAAFVgAAAwAAAAABACAAAA==
+		</data>
+	</array>
+</dict>
+</plist>
