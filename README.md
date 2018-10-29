@@ -126,7 +126,7 @@ sudo defaults delete /Library/Preferences/com.apple.windowserver DisplayResoluti
 ```
 #### 2. Generate a display override plist
 
-You can either copy my custom override folder in /System/Library/Displays/Contents/Resources/Overrides/ or generate your own at https://comsysto.github.io/Display-Override-PropertyList-File-Parser-and-Generator-with-HiDPI-Support-For-Scaled-Resolutions/
+You can either copy my custom override folder [DisplayVendorID-30e4](https://github.com/gartempe/MacOS-Thinkpad-Yoga-12/tree/master/HiDPI/DisplayVendorID-30e4) in /System/Library/Displays/Contents/Resources/Overrides/ or generate your own at https://comsysto.github.io/Display-Override-PropertyList-File-Parser-and-Generator-with-HiDPI-Support-For-Scaled-Resolutions/
 
 LCD panel reference in Yoga 12 is :
 - VendorID: 30e4
