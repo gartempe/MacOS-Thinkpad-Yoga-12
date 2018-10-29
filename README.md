@@ -88,7 +88,7 @@ It consitsts of a combinaison of ACPI replacements done in Clover plist along wi
 
 #### 2. Fix LED blinking after waking up from sleep
 
-In config.plist,replace method "WAKH"
+In config.plist, replace method "WAKH"
 14 4E 41 57 41 4B 48 09
 
 by method "WAKO"
@@ -126,11 +126,13 @@ sudo defaults delete /Library/Preferences/com.apple.windowserver DisplayResoluti
 ```
 #### 2. Generate a display override plist
 
-You can either copy my custom override folder [DisplayVendorID-30e4](https://github.com/gartempe/MacOS-Thinkpad-Yoga-12/tree/master/HiDPI/DisplayVendorID-30e4) in /System/Library/Displays/Contents/Resources/Overrides/ or generate your own at https://comsysto.github.io/Display-Override-PropertyList-File-Parser-and-Generator-with-HiDPI-Support-For-Scaled-Resolutions/
+You can either copy my custom override folder [DisplayVendorID-30e4](https://github.com/gartempe/MacOS-Thinkpad-Yoga-12/tree/master/HiDPI) (copy the whole "DisplayVendorID-30e4" folder) in /System/Library/Displays/Contents/Resources/Overrides/ or generate your own at https://comsysto.github.io/Display-Override-PropertyList-File-Parser-and-Generator-with-HiDPI-Support-For-Scaled-Resolutions/ (also read the doc at the bottom of the page).
 
 LCD panel reference in Yoga 12 is :
 - VendorID: 30e4
 - ProductID: 437
+
+My custom override folder is set for 1920x1080 native resolution + 1600x900 scaled HiDPI + 1366x768 scaled HiDPI.
 
 #### 3. Use RDM to switch resolution
 
