@@ -95,7 +95,7 @@ by method "WAKO"
 14 4E 41 57 41 4B 4F 09
 
 ```
-dict>
+<dict>
       <key>Comment</key>
       <string>change Method(WAKH to WAKO</string>
       <key>Disabled</key>
