@@ -80,6 +80,26 @@ CPU, Graphic Card, Power Management, Battery, Sleep, Camera, Screen (FHD), brigh
 
 ...
 
+### 2. Kexts used
+
+- ACPIBatteryManager.kext
+- AHCIPortInjector.kext
+- AppleBacklightFixup.kext
+- CodecCommander.kext
+- HDMIAudio.kext
+- HibernationFixup.kext
+- IntelMausiEthernet.kext
+- Lilu.kext
+- SMCBatteryManager.kext
+- SMCProcessor.kext
+- USBInjectAll.kext
+- VirtualSMC.kext
+- VoodooHDA.kext
+- VoodooPS2Controller.kext
+- WhateverGreen.kext
+
+
+
 ### 2. Hotpaches
 
 It consitsts of a combinaison of ACPI replacements done in Clover plist along with additional custom SDST files.
