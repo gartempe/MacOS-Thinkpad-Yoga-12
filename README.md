@@ -90,7 +90,7 @@ Adapted from this guide: https://www.tonymacx86.com/threads/guide-usb-power-prop
 
 ##### 1. Fix Embedded Controller reference
 
-In config.plist rename EC0 to EC, in order to get proper access to embedded controller:
+In config.plist rename EC0 to EC, in order AppleBusPowerController will get a proper access to embedded controller:
 
 ```
 <dict>
