@@ -106,7 +106,8 @@ In config.plist rename EC0 to EC, in order to get proper access to embedded cont
 ```
 ##### 2. Inject port limits and kUSB power management
 
-sdsd
+USB controller is 8086_9cb1 with following ports:
+
 - HS01: Left port, external (USB2)
 - HS02: Right port, external (USB2)
 - HS03: Onelink Pro Dock (USB2)
@@ -123,6 +124,26 @@ sdsd
 - SSP3: Onelink Pro Dock (USB3)
 - SSP4: Not used
 - SSP5: Not used
+
+A SSDT hotpatch is used to:
+
+- to enable only those used HS01,HS02,HS03,HS04,HS05,HS06,HS08,SSP1,SSP2,SSP3 with appropriate port values (external/internal). *Note: if you don't plan to use OneLink Dock, you can also disable HS03 and SSP3*
+- to inject proper value for AppleBusPowerController
+```
+"kUSBSleepPortCurrentLimit", 2100,
+"kUSBSleepPowerSupply", 2600,
+"kUSBWakePortCurrentLimit", 2100,
+"kUSBWakePowerSupply", 3200,
+```
+- to inject proper AAPL values for \\_SB.PCI0.XHC
+```
+"AAPL,current-available", Buffer() { 0x34, 0x08, 0, 0 },
+"AAPL,current-extra", Buffer() { 0x98, 0x08, 0, 0, },
+"AAPL,current-extra-in-sleep", Buffer() { 0x40, 0x06, 0, 0, },
+"AAPL,device-internal", 0x02,
+"AAPL,max-port-current-in-sleep", Buffer() { 0x34, 0x08, 0, 0 },
+```
+
 
 ##### 3. Fix Power Call
 ```
