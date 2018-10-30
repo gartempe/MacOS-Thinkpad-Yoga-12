@@ -88,6 +88,8 @@ It consitsts of a combinaison of ACPI replacements done in Clover plist along wi
 
 Adapted from this guide: https://www.tonymacx86.com/threads/guide-usb-power-property-injection-for-sierra-and-later.222266/
 
+##### 1. Fix Embedded Controller reference
+
 In config.plist rename EC0 to EC, in order to get proper access to embedded controller:
 
 ```
@@ -102,8 +104,11 @@ In config.plist rename EC0 to EC, in order to get proper access to embedded cont
 	<data>RUNfXw==</data>
 </dict>
 ```
+##### 2. Inject port limits and kUSB power management
+
 sdsd
 
+##### 3. Fix Power Call
 ```
 <dict>
 	<key>Comment</key>
