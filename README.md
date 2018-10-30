@@ -107,6 +107,22 @@ In config.plist rename EC0 to EC, in order to get proper access to embedded cont
 ##### 2. Inject port limits and kUSB power management
 
 sdsd
+- HS01: Left port, external (USB2)
+- HS02: Right port, external (USB2)
+- HS03: Onelink Pro Dock (USB2)
+- HS04: Bluetooth, internal (USB2)
+- HS05: Synaptic Touch Digitizer, internal (USB2)
+- HS06: Integrated camera, internal (USB2)
+- HS07: Not used
+- HS08: ISD-V4 (tablet), internal (USB2)
+- HS09: Not used
+- HS10: Not used
+- HS11: Not used
+- SSP1: Left port, external (USB3)
+- SSP2: Right port, external (USB3)
+- SSP3: Onelink Pro Dock (USB3)
+- SSP4: Not used
+- SSP5: Not used
 
 ##### 3. Fix Power Call
 ```
