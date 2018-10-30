@@ -83,7 +83,7 @@ CPU, Graphic Card, Power Management, Battery, Sleep, Camera, Screen (FHD), brigh
 ### 2. Kexts used
 
 - ACPIBatteryManager.kext
-- AHCIPortInjector.kext
+- ~~AHCIPortInjector.kext~~
 - AppleBacklightFixup.kext
 - CodecCommander.kext
 - HDMIAudio.kext
@@ -269,6 +269,10 @@ If you want to generate your own resolutions override, the LCD panel references 
 #### 3. Use RDM to switch resolution
 
 https://github.com/avibrazil/RDM
+
+### 2. SMBIOS
+
+
 
 ### 2. CPU Low Frequency Mode
 
