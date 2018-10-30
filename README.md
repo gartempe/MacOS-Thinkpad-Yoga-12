@@ -52,7 +52,7 @@ If you get error message "secure flash athentication failed" while updating the 
 - CON4B2E72 Integrated Camera (USB Internal port)
 
 - 
-- Onelink Pro Dock port for extension module
+- Onelink Dock port for extension module [Onelink Pro Dock](https://support.lenovo.com/us/en/solutions/pd029981)
 
 #### What will work:
 CPU, Graphic Card, Power Management, Battery, Sleep, Camera, Screen (FHD), brightness, HiDPI, Keyboard, Trackpad and Trackpoint, Sound, USB ports, HDMI port, Onelink Pro Dock (USB2/USB3, DisplayPort, DVI, Ethernet).
