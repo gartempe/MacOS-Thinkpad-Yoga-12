@@ -59,7 +59,7 @@ CPU, Graphic Card, Power Management, Battery, Sleep, Camera, Screen (FHD), brigh
 
 #### What will not work:
 - Touchscreen
-- ST Sensor Hub: gyroscope, rotation detection, luminosity detection..
+- ST Sensor Hub: gyroscope, Accelerometer, rotation detection, luminosity detection..
 
 #### What will partially work:
 - Tablet digitzer (with stylus): recognized as a mouse with button
