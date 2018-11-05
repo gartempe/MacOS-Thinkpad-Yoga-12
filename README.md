@@ -286,6 +286,8 @@ To fix that, you can patch the frequency vectors.
 
 Keyboard special keys
 
+Done with https://github.com/RehabMan/OS-X-ACPI-Debug
+
 Mute (f1):
 ApplePS2Keyboard: sending key e020=4a down
 ACPI: EC _Q43
