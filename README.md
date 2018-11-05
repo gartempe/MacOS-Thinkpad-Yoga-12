@@ -295,57 +295,79 @@ ACPI: EC _Q43
 -----------
 Volume - (f2):
 ApplePS2Keyboard: sending key e02e=49 down
+
 ------------
 Volume + (f3): 
 ApplePS2Keyboard: sending key e030=48 down
+
 ----------
 Mic (f4):
 Ukulele: 64
 ApplePS2Keyboard: sending key 68=40 down
 ApplePS2Keyboard: sending key 68=40 down
 ACPI: EC _Q6A
+
 ---------
 light down (f5):
 ApplePS2Keyboard: sending key e005=6b down
 ACPIDebug: "EC _Q15 enter"
+
 -------
 light up (f6):
 ApplePS2Keyboard: sending key e006=71 down
 ACPI: EC _Q14 exit
+
 -------------
+
 Miror (f7)
 ApplePS2Keyboard: sending key e05b=3a down
 and after
 ApplePS2Keyboard: sending key 19=23 down
+
 --------
 f8:
 ApplePS2Keyboard: sending key 42=64 down
 ACPI: EC _Q64
+
 -------
+
 f9:
 ApplePS2Keyboard: sending key 43=65 down
 ACPI: "EC _Q5A
+
 ----------
+
 f10:
 ApplePS2Keyboard: sending key 44=6d 
 ACPI: EC _Q5B
+
 --------
+
 f11:
 ApplePS2Keyboard: sending key 57=67 down
 ACPIDebug: "EC _Q5C enter"
+
 ---------
 f12:
 ApplePS2Keyboard: sending key 58=6f down
 ACPIDebug: "EC _Q5D enter"
+
 ----------
+
 Lock screen rotation (on side): ACPIDebug: "EC _Q36 enter"
+
 -------
+
 power plug on: ACPIDebug: "EC _Q26 enter"
 power plug off: ACPIDebug: "EC _Q27 enter"
 
 ---
+
 Win key : ?
+
 ---------
+
 fn+Space (keyboard light):
 ACPI: EC _Q1F
+
 -------------
