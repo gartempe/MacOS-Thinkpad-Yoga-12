@@ -286,6 +286,8 @@ To fix that, you can patch the frequency vectors.
 
 Keyboard special keys
 
+For reference: Apple Key Codes https://eastmanreference.com/complete-list-of-applescript-key-codes
+
 Done with https://github.com/RehabMan/OS-X-ACPI-Debug
 
 Mute (f1):
