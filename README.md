@@ -326,6 +326,8 @@ ApplePS2Keyboard: sending key e05b=3a down
 and after
 ApplePS2Keyboard: sending key 19=23 down
 
+mapped by default to ⌥P
+
 --------
 WIFI (F8):
 ApplePS2Keyboard: sending key 42=64 down
