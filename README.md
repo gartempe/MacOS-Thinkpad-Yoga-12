@@ -301,19 +301,19 @@ Volume + (f3):
 ApplePS2Keyboard: sending key e030=48 down
 
 ----------
-Mic (f4):
+Mic Mute (F4):
 Ukulele: 64
 ApplePS2Keyboard: sending key 68=40 down
 ApplePS2Keyboard: sending key 68=40 down
 ACPI: EC _Q6A
 
 ---------
-light down (f5):
+Brightness Down (F5):
 ApplePS2Keyboard: sending key e005=6b down
-ACPIDebug: "EC _Q15 enter"
+ACPI: EC _Q15
 
 -------
-light up (f6):
+Brightness Up (F6):
 ApplePS2Keyboard: sending key e006=71 down
 ACPI: EC _Q14 exit
 
@@ -325,36 +325,41 @@ and after
 ApplePS2Keyboard: sending key 19=23 down
 
 --------
-f8:
+WIFI (F8):
 ApplePS2Keyboard: sending key 42=64 down
 ACPI: EC _Q64
 
 -------
 
-f9:
+Settings (F9):
 ApplePS2Keyboard: sending key 43=65 down
-ACPI: "EC _Q5A
+ACPI: EC _Q5A
 
 ----------
 
-f10:
+Search (F10):
 ApplePS2Keyboard: sending key 44=6d 
 ACPI: EC _Q5B
 
 --------
 
-f11:
+Menu (F11):
 ApplePS2Keyboard: sending key 57=67 down
-ACPIDebug: "EC _Q5C enter"
+ACPI: EC _Q5C
 
 ---------
-f12:
+Apps (F12):
 ApplePS2Keyboard: sending key 58=6f down
-ACPIDebug: "EC _Q5D enter"
+ACPI: EC _Q5D
 
 ----------
 
-Lock screen rotation (on side): ACPIDebug: "EC _Q36 enter"
+Lock screen rotation (on side): 
+This button also send a two signals:
+- PS2 scan code e017 (F15)
+- ACPI: EC _Q36
+
+-> disabling _Q36 method, and mapping e017=64 (F13) to avoid duplicate button for Brightness Up
 
 -------
 
