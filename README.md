@@ -385,3 +385,9 @@ fn+Space (keyboard light):
 ACPI: EC _Q1F
 
 -------------
+
+Update to 10.14.1
+
+after update, when all set and done, restarted with a fatal osxaptio error.
+
+Had to update my old OsxAptioFixDrv-64.efi to OsxAptioFix3Drv-64.efi.
