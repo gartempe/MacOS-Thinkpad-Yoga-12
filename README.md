@@ -283,6 +283,11 @@ To fix that, you can patch the frequency vectors.
 	This restriction can be lifted with help of freqVectorsEdit.sh from:
 	https://github.com/Piker-Alpha/freqVectorsEdit.sh
 
+-> to check: https://github.com/nguyenlc1993/mac-os-k501l/wiki/Postinstall-optimization
+
+Actually, I included 2 dummy kexts in the installation pack namely AppleGraphicsPowerManagement_K501LX.kext and X86PlatformPlugin_K501LX.kext, which contain the modified power profiles. You just have to install these two kexts to get the effect, thus no need to modify the original kexts.
+
+
 
 Keyboard special keys
 
