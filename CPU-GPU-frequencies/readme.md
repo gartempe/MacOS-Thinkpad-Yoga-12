@@ -1,14 +1,28 @@
 This is suited for Core i5-5200U CPU, with Intel HD 5500 GPU on MacBookAir7,2
 
-https://everymac.com/systems/apple/macbook-air/specs/macbook-air-core-i5-1.6-13-early-2015-specs.html
+MacBookAir7,2 specs: https://everymac.com/systems/apple/macbook-air/specs/macbook-air-core-i5-1.6-13-early-2015-specs.html
 
-
-Note:
 
 - [Core i5-5200U](https://ark.intel.com/products/85212/Intel-Core-i5-5200U-Processor-3M-Cache-up-to-2-70-GHz-) has Base Frequency 2.2GHz / Turbo Frequency 2.5Ghz / Max Turbo Frequency 2.7Ghz / Low Frequency Mode 0.5Ghz - 0.8Ghz (only 0.8Ghz will be used)
 - Intel HD 5500 has Low Frequency Mode 300Mhz / Max Frequency 800Mhz / Turbo Frequency 900Mhz
 
-
+```
+0:102  0:000  === [ GetCPUProperties ] ==================================  
+0:102  0:000  CPU Vendor = 756E6547 Model=306D4  
+0:102  0:000   The CPU supported SSE4.1  
+0:102  0:000  BrandString = Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz  
+0:102  0:000   The CPU supported turbo  
+0:102  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz  
+0:102  0:000  MaxDiv/MinDiv: 22.0/5  
+0:102  0:000  Turbo: 25/25/25/27  
+0:102  0:000  Features: 0xBFEBFBFF  
+0:102  0:000  Threads: 4  
+0:102  0:000  Cores: 2  
+0:102  0:000  FSB: 100 MHz  
+0:102  0:000  CPU: 2200 MHz  
+0:102  0:000  TSC: 2200 MHz  
+0:102  0:000  PIS: 100 MHz  
+```
 
 But by default the Low Frequency Modes on MacBookAir7,2 would be:
 
