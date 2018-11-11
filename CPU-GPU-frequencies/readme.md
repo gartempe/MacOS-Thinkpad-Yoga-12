@@ -5,7 +5,7 @@ This is suited for Core i5-5200U CPU, with Intel HD 5500 GPU on MacBookAir7,2
 MacBookAir7,2 specs: https://everymac.com/systems/apple/macbook-air/specs/macbook-air-core-i5-1.6-13-early-2015-specs.html
 
 
-- [Core i5-5200U](https://ark.intel.com/products/85212/Intel-Core-i5-5200U-Processor-3M-Cache-up-to-2-70-GHz-) has Base Frequency 2.2GHz / Turbo Frequency 2.5Ghz / Max Turbo Frequency 2.7Ghz / Low Frequency Mode 0.5Ghz - 0.8Ghz (only 0.8Ghz will be used)
+- [Core i5-5200U](https://ark.intel.com/products/85212/Intel-Core-i5-5200U-Processor-3M-Cache-up-to-2-70-GHz-) has Base Frequency 2.2GHz / Turbo Frequency 2.5Ghz / Max Turbo Frequency 2.7Ghz / Low Frequency Mode 0.5Ghz - 0.8Ghz (only 0.8Ghz will be used, 0.5Ghz doesn't work)
 - Intel HD 5500 has Low Frequency Mode 300Mhz / Max Frequency 800Mhz / Turbo Frequency 900Mhz
 
 ```
