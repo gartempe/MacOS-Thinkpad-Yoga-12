@@ -44,6 +44,8 @@ I suggest you to backup /System/Library/Extension/
 
 How to check it is working properly ?
 
+[Intel Power Gadget](https://software.intel.com/en-us/articles/intel-power-gadget-20)
+
 CPU
 
 Frequency vector is used:
