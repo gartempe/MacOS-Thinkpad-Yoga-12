@@ -24,7 +24,7 @@ MacBookAir7,2 specs: https://everymac.com/systems/apple/macbook-air/specs/macboo
 0:102  0:000  PIS: 100 MHz  
 ```
 
-But by default the Low Frequency Modes on MacBookAir7,2 would be:
+**But by default the Low Frequency Modes on MacBookAir7,2 would be:**
 
 - CPU : 1.3Ghz
 - GPU : 350 Mhz
