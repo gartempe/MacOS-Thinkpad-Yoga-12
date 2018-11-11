@@ -26,6 +26,22 @@ I suggest you to backup /System/Library/Extension/
 
 How to check it is working properly ?
 
+CPU
+
+Frequency vector is used:
+
+```
+sysctl -n machdep.xcpm.vectors_loaded_count
+1
+```
+Max hard limit is 2700Mhz (27x100):
+
+```
+sysctl -n machdep.xcpm.hard_plimit_max_100mhz_ratio
+27
+```
+
+
 GPU
 
 Check with command in terminal: ioreg -rlw0 -p IOService -c AGPMController -k Machine | grep Machine
