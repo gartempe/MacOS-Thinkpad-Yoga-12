@@ -10,6 +10,6 @@ By default the Low Frequency Modes on MacBookAir7,2 would be:
 Place these kexts (.kext) in /Library/Extensions/ folder in order to override...
 This will add:
 
-- a 0.8Ghz frenquency vector for CPU
+- 0.8Ghz frenquency vector for CPU LFM
 - proper top frequencies (max base frequency: 2.2Ghz / 1st level Turbo Frequency 2.5Ghz / 2nd level Turbo Frenquency 2.7Ghz)
 - 300Mhz GT2Floor/GT3Floor for GPU
