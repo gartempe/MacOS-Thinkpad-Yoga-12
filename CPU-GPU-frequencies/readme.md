@@ -1,3 +1,5 @@
+# Getting proper frequencies management for CPU and GPU
+
 This is suited for Core i5-5200U CPU, with Intel HD 5500 GPU on MacBookAir7,2
 
 MacBookAir7,2 specs: https://everymac.com/systems/apple/macbook-air/specs/macbook-air-core-i5-1.6-13-early-2015-specs.html
@@ -42,7 +44,7 @@ This will add:
 
 I suggest you to backup /System/Library/Extension/
 
-###How to check it is working properly ?
+### How to check it is working properly ?
 
 [Intel Power Gadget](https://software.intel.com/en-us/articles/intel-power-gadget-20)
 
