@@ -24,7 +24,17 @@ This will add:
 
 I suggest you to backup /System/Library/Extension/
 
+How to check it is working properly ?
+
+GPU
+
+Check with command in terminal: ioreg -rlw0 -p IOService -c AGPMController -k Machine | grep Machine
+
+That you get :
+
+- "GT2Floor"=6
+- "GT3Floor"=6
+
 ```
-ioreg -rlw0 -p IOService -c AGPMController -k Machine | grep Machine
       "Machine" = {"MacBookAir7,2"={"IGPU"={"BoostPState"=(24,24,24,24),"BoostTime"=(1,1,1,15),"SliceControl"=1,"control-id"=16,"Heuristic"={"ThresholdsForRingOverrideTable2"=(10,100),"ThresholdsForRingOverrideTable1"=(5,15),"ThresholdsForRingOverrideTable0"=(0,10),"EvaluateUpInterval"=31250,"DownStep"=1,"GT3Floor"=6,"StartingPstateForRingTableOverride"=11,"NumOfRingTableOverride"=23,"RingOverrideTable2"=(8,8,8,9,10,11,13,14,15,16,18,19,20,21,23,24,25,26,28,29,30,31,33),"IOBusynessSamplingInterval"=1,"EnableOverride"=1,"UpStep"=2,"RingOverrideTable1"=(8,8,8,9,10,11,13,14,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16),"BusyUpThresholdPercent"=70,"GT2Floor"=6,"NumOfThresholdsForRingTables"=2,"BusyDownThresholdPercent"=50,"ID"=2,"RingOverrideTable0"=(8,8,8,8,8,9,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10),"NumOfRingTables"=3,"sampleInterval"=1000,"EvaluateDownInterval"=31250,"EnableRingTableOverride"=1}}}}
  ```
