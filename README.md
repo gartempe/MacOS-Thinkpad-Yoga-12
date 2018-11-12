@@ -65,6 +65,18 @@ CPU, Graphic Card, Power Management, Battery, Sleep, Camera, Screen (FHD), brigh
 - Tablet digitzer (with stylus): recognized as a mouse with button
 - SD Card reader: a driver is under development, but not yet stable enough
 
+#### Hardware replacement:
+Default Intel Wifi M.2 card is replaced by a Broadcom BCM94352Z card.
+Thinkpad Yoga 12 M.2 wifi port is either compatible with A+E or E keys cards. So you can either use in it:
+
+- Dell DW1560 (BCM94352Z) which is M.2 **"A+E" keyed**.
+- Lenovo BCM94352Z (**FRU 04X6020**) which is M.2 **"E" keyed**.
+
+So if you find a good price opportunity on Lenovo's BCM94352Z card, you can go for it on Yoga 12 ;) *This is not the case for every laptops*
+
+
+
+
 ## Installation
 
 ....
