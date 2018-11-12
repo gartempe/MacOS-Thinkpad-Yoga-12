@@ -67,7 +67,7 @@ CPU, Graphic Card, Power Management, Battery, Sleep, Camera, Screen (FHD), brigh
 
 #### WIFI alternatives:
 Default Intel Wifi M.2 card is replaced by a Broadcom BCM94352Z card.
-Thinkpad Yoga 12 M.2 wifi port is either compatible with A+E or E keys cards. So you can either use in it:
+Thinkpad Yoga 12 M.2 wifi port is E keyed, so it's compatible with both A+E and E keys cards. So you can either use in it:
 
 - Dell DW1560 (BCM94352Z) which is M.2 **"A+E" keyed**.
 - Lenovo BCM94352Z (**FRU 04X6020**) which is M.2 **"E" keyed**.
