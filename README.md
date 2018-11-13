@@ -398,6 +398,21 @@ fn+Space (keyboard light):
 ACPI: EC _Q1F
 
 -------------
+### Sound
+
+Sound is reported to be Conexant CX22752 (aka Conexant CX20752) from [Lenovo Win8 driver page](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-yoga-series-laptops/thinkpad-yoga-12/downloads/ds102058) or Conexant CX22751 (aka Conexant CX20751) from Lenovo Win10 driver page.
+
+Hopefully Conexant CX20751/20752 is supported by [AppleALC kext](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs). Its layout-id is either 3 or 28.
+
+So it is just needed to install AppleALC.kext in /Library/Extensions/ , along with Lilu.
+And configure in config.plist:
+
+- ACPI/DSDT/Fixes/FixHPET -> Yes
+- Devices/Audio/Inject -> 28
+
+*No need for VoodooHDA or CodecCommander.*
+
+-----------
 
 Update to 10.14.1
 
