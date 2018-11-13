@@ -44,8 +44,9 @@ If you get error message "secure flash athentication failed" while updating the 
 
 - CPU: Intel Core i-5 5200U
 - GFX: Intel HD Graphics 5500
-- Display 12.5" FHD IPS LCD (VendorID: 30e4 | ProductID: 437)
+- Display 12.5" FHD IPS LCD (VendorID: 30e4 | ProductID: 437) [LG Display LP125WF2-SPB2](http://www.panelook.com/LP125WF2-SPB2_LG%20Display_12.5_LCM_overview_23372.html)
 - Wifi Intel -> Should be replaced by a Broadcom compatible WLAN card
+- Intel HD Audio (Conexant CX22752 Audio Driver)
 - 8GB Ram
 - Realtek RTS5227 PCI Express Card Reader
 - Synaptics Touch Digitizer V04 (USB Internal port)
@@ -414,11 +415,17 @@ And configure in config.plist:
 
 -----------
 
-#ICC profile
+### ICC profile
 
+LCD panel is LG Display LP125WF2-SPB2
+
+By default with ICC profile generated automatically by Apple, the display is a bit yellowish
+
+Here is an ICC profile that gets more accurate colors: https://github.com/soleblaze/icc/raw/master/lp125wf2-spb2.icc
 Found here: https://github.com/soleblaze/icc
 
-LG Display LP125WF2-SPB2
+Another profile found here (but more redish): redish https://www.thinkscopes.com/2014/08/24/color-profiles-for-current-thinkpads/
+
 
 -----------
 
