@@ -56,7 +56,7 @@ If you get error message "secure flash athentication failed" while updating the 
 - Onelink Dock port for extension module [Onelink Pro Dock](https://support.lenovo.com/us/en/solutions/pd029981)
 
 #### What will work:
-CPU, Graphic Card, Power Management, Battery, Sleep, Camera, Screen (FHD), brightness, HiDPI, Keyboard, Trackpad and Trackpoint, Sound, USB ports, HDMI port, Onelink Pro Dock (USB2/USB3, DisplayPort, DVI, Ethernet).
+CPU, Graphic Card, Power Management, Battery, Sleep, Camera, Screen (FHD), brightness, HiDPI, Keyboard, Trackpad and Trackpoint, Sound, USB ports, HDMI port, HDMI Audio-Out, Onelink Pro Dock (USB2/USB3, DisplayPort, DVI, Ethernet).
 
 #### What will not work:
 - Touchscreen
