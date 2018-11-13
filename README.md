@@ -414,6 +414,14 @@ And configure in config.plist:
 
 -----------
 
+#ICC profile
+
+Found here: https://github.com/soleblaze/icc
+
+LG Display LP125WF2-SPB2
+
+-----------
+
 Update to 10.14.1
 
 after update, when all set and done, restarted with a fatal osxaptio error.
