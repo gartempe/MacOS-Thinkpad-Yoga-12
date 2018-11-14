@@ -280,6 +280,8 @@ If you want to generate your own resolutions override, the LCD panel references 
 - VendorID: 30e4
 - ProductID: 437
 
+Or this automated script: https://github.com/xzhih/one-key-hidpi
+
 #### 3. Use RDM to switch resolution
 
 https://github.com/avibrazil/RDM
