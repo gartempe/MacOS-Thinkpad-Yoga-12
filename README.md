@@ -415,6 +415,17 @@ And configure in config.plist:
 
 *No need for VoodooHDA or CodecCommander.*
 
+#### HDMI SOUND OUTPUT
+
+OK, I get HDMI Audio-Out working, but no control over the volume on that output ?
+
+> It's not a bug, it's a feature !
+
+This is how Apple/MacOS think it should be : no control on the volume for this kind of audio output, full volume and you should control the volume directly on your monitor...
+
+- https://staticz.com/soundcontrol/ (not free: 10$ License)
+
+
 -----------
 
 ### ICC profile
