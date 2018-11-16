@@ -421,14 +421,14 @@ OK, I get HDMI Audio-Out working, but no control over the volume on that output 
 
 > It's not a bug, it's a feature !
 
-This is how Apple/MacOS think it should be : no control on the volume for this kind of audio output, full volume and you should control the volume directly on your monitor...
+This is how Apple/MacOS think it should be : no control on the volume for this kind of audio output, sound is sent at full volume and you should control the volume directly on your monitor...
 
-There are external tools to enable sound volume control for HDMI output. Basically system audio is sent to an additional virtual audio device (with controlable volume) then routed to the desired output.
+There are external tools to enable sound volume control (from the system) for HDMI output. What they do basically it to create an additional virtual audio device (with controlable volume) and you send system audio to it, then it routes the sound the desired output. It acts like a proxy with audio routing.
 
 - https://github.com/mattingalls/Soundflower (free)
 - https://staticz.com/soundcontrol/ (not free: 10$ License)
 
-The caveat with these solutions above: expect some sound distortion and/or some delay, CPU usage and memory footprint increase, some issues with audio output/control after wake....
+The caveat with these solutions above: expect some sound distortion and/or some delay, CPU usage and memory footprint increase, some issues with audio output/control after wake.... So it's up to you.
 
 -----------
 
