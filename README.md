@@ -425,7 +425,7 @@ This is how Apple/MacOS think it should be : no control on the volume for this k
 
 There are external tools to enable sound volume control (from the system) for HDMI output. What they do basically it to create an additional virtual audio device (with controlable volume) and you send system audio to it, then it routes the sound the desired output. It acts like a proxy with audio routing.
 
-- https://github.com/mattingalls/Soundflower (free)
+- https://github.com/mattingalls/Soundflower (free) [tutorial](https://www.mattmontag.com/music/enable-mac-volume-control-for-hdmi-and-displayport-audio-devices) / [Lifehacker post](https://lifehacker.com/how-to-enable-mac-volume-control-for-hdmi-or-displaypor-1793607216)
 - https://staticz.com/soundcontrol/ (not free: 10$ License)
 
 The caveat with these solutions above: expect some sound distortion and/or some delay, CPU usage and memory footprint increase, some issues with audio output/control after wake.... So it's up to you.
