@@ -446,6 +446,28 @@ Another profile found here (but more redish): redish https://www.thinkscopes.com
 
 -----------
 
+### Subpixel antialiasing
+
+On macOS Mojave nukes subpixel antialiasing, making your non retina monitor appear blurry.
+
+1. Re-enable subpixel rendering
+```
+defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
+```
+
+2. Fine tune font smoothing
+
+```
+defaults read NSGlobalDomain AppleFontSmoothing
+```
+
+You can set it to 1, 2, 3 or 4
+```
+defaults write NSGlobalDomain AppleFontSmoothing -int 3
+```
+
+-----------
+
 Update to 10.14.1
 
 after update, when all set and done, restarted with a fatal osxaptio error.
