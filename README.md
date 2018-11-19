@@ -484,5 +484,5 @@ Had to update my old OsxAptioFixDrv-64.efi to OsxAptioFix3Drv-64.efi.
 
 Unknown PCI devices:
 
-pci8086,9ca4 : Intel PCH Thermal Reporting
-pci8086,1604 : Intel Broadwell-U Host Bridge -OPI
+- pci8086,9ca4 : Intel PCH Thermal Reporting
+- pci8086,1604 : Intel Broadwell-U Host Bridge -OPI
