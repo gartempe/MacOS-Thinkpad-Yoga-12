@@ -488,3 +488,21 @@ Unknown PCI devices:
 
 - pci8086,9ca4 : Intel PCH Thermal Reporting
 - pci8086,1604 : Intel Broadwell-U Host Bridge -OPI
+
+---------------
+Stylus (Tablet). Recognized as Mouse.
+VendorID: 0x56a
+ProductId: 0xec
+USB Product Name: ISD-V4
+USB Vendor Name : Tablet
+
+In System Information:
+
+ Identifiant du fournisseur :	0x056a  (WACOM Co., Ltd.)
+ Fabricant :	Tablet
+
+---------------
+
+Note about the ThinkPad OneLink Pro Dock https://support.lenovo.com/us/en/solutions/pd029981
+
+![Image of Yaktocat](http://download.lenovo.com/km/media/images/PD029981/995eb503c58a45fbbf2d5eb554a840bf.jpg)
