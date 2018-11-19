@@ -507,9 +507,10 @@ Note about the ThinkPad OneLink Pro Dock https://support.lenovo.com/us/en/soluti
 
 ![OneLink Pro Dock](https://raw.githubusercontent.com/gartempe/MacOS-Thinkpad-Yoga-12/master/images/onelinkprodock.jpg)
 
-If you plan to use your Thinkpad Yoga 12 regularly on a desk, this dock is very useful.
+If you plan to use your Thinkpad Yoga 12 regularly on a desk, this dock is very convenient. If you get the opportunity to buy one for cheap *(I bought mine for 25 euros on Ebay)*, go for it ;)
 
-It add the follwoing features totally working with MacOS Mojave: Ethernet Gigabit, additional sound output, powered USB Hub with 2 USB2 ports and 4 USB3 ports, Display Port, DVI port.
-Everything is hotplug.
+It add the follwoing features totally working with MacOS Mojave: main power replicator, Ethernet Gigabit, additional sound output, powered USB Hub with 2 USB2 ports and 4 USB3 ports, Display Port, DVI port. And everything is hotplug.
+
+*Note: I've tested everything except DVI port, but as FB Patcher reports 4 framebuffers including one disabled (set as dummy), I'm pretty sure it's possible to enable the framebuffer for DVI port.*
 
 
