@@ -450,7 +450,9 @@ Another profile found here (but more redish): redish https://www.thinkscopes.com
 
 On macOS Mojave nukes subpixel antialiasing, making your non retina monitor appear blurry.
 
-Solution: open the terminal
+While this is considered as a "refinement" on Apple retina displays, it is clearly a downgrade regarding font rendering on FHD panel.
+
+-> Solution: open the terminal
 
 1. Re-enable subpixel rendering
 ```
