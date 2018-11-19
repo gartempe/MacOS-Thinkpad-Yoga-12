@@ -450,6 +450,8 @@ Another profile found here (but more redish): redish https://www.thinkscopes.com
 
 On macOS Mojave nukes subpixel antialiasing, making your non retina monitor appear blurry.
 
+Solution: open the terminal
+
 1. Re-enable subpixel rendering
 ```
 defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
@@ -462,11 +464,13 @@ To read the actual setting:
 defaults read NSGlobalDomain AppleFontSmoothing
 ```
 
-You can set it to 1, 2, 3 or 4. I've used 3 on mine.
+Then you can set it to 1, 2, 3 or 4. Test the setting that suits you the best (I've used 3 on mine).
 ```
 defaults write NSGlobalDomain AppleFontSmoothing -int 3
 ```
 You'll need to either reboot your laptop or close the session an log on again, in order to see any change.
+
+Sources: [tonymacx86 post](https://www.tonymacx86.com/threads/re-enable-subpixel-rendering.261087/) and [reddit post](https://www.reddit.com/r/apple/comments/8wpk18/macos_mojave_nukes_subpixel_antialiasing_making/)
 
 -----------
 
