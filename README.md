@@ -316,73 +316,18 @@ ApplePS2Keyboard: sending key e020=4a down
 ACPI: EC _Q43
 
 -----------
-Volume - (f2):
-ApplePS2Keyboard: sending key e02e=49 down
-
-------------
-Volume + (f3): 
-ApplePS2Keyboard: sending key e030=48 down
-
-----------
-Mic Mute (F4):
-Ukulele: 64
-ApplePS2Keyboard: sending key 68=40 down
-ApplePS2Keyboard: sending key 68=40 down
-ACPI: EC _Q6A
-
----------
-Brightness Down (F5):
-ApplePS2Keyboard: sending key e005=6b down
-ACPI: EC _Q15
-
--------
-Brightness Up (F6):
-ApplePS2Keyboard: sending key e006=71 down
-ACPI: EC _Q14 exit
-
--------------
-
-Miror (f7)
-ApplePS2Keyboard: sending key e05b=3a down
-and after
-ApplePS2Keyboard: sending key 19=23 down
-
-mapped by default to ⌥P
-
---------
-WIFI (F8):
-ApplePS2Keyboard: sending key 42=64 down
-ACPI: EC _Q64
-
--------
-
-Settings (F9):
-ApplePS2Keyboard: sending key 43=65 down
-ACPI: EC _Q5A
-
-----------
-
-Search (F10):
-ApplePS2Keyboard: sending key 44=6d 
-ACPI: EC _Q5B
-
---------
-
-Menu (F11):
-ApplePS2Keyboard: sending key 57=67 down
-ACPI: EC _Q5C
-
----------
-Apps (F12):
-ApplePS2Keyboard: sending key 58=6f down
-ACPI: EC _Q5D
-
-----------
-
-Lock screen rotation (on side): 
-This button also send a two signals:
-- PS2 scan code e017 (F15)
-- ACPI: EC _Q36
+- Volume - *(on F2)*: ApplePS2Keyboard: sending key e02e=49 down
+- Volume + *(on F3)*: ApplePS2Keyboard: sending key e030=48 down
+- Mic Mute *(on F4)*: ACPI EC _Q6A
+- Brightness Down *(on F5)*: ACPI EC _Q15
+- Brightness Up *(on F6)*: ACPI EC _Q14
+- Miror *(on f7)* : ApplePS2Keyboard sending key e05b=3a down and after ApplePS2Keyboard sending key 19=23 down = mapped by default to ⌥P
+- WIFI *(on F8)*: ACPI EC _Q64
+- Settings *(on F9)*: ACPI EC _Q5A
+- Search *(on F10)*: ACPI EC _Q5B
+- Menu *(on F11)*: ACPI EC _Q5C
+- Apps *(on F12)*: ACPI EC _Q5D
+- Lock screen rotation (on side): This button also send a two signals at the same time : PS2 scan code e017 (F15) / ACPI EC _Q36
 
 -> disabling _Q36 method, and mapping e017=64 (F13) to avoid duplicate button for Brightness Up
 
