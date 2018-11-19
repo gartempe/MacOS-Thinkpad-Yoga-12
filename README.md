@@ -505,4 +505,11 @@ In System Information:
 
 Note about the ThinkPad OneLink Pro Dock https://support.lenovo.com/us/en/solutions/pd029981
 
-![Image of Yaktocat](http://download.lenovo.com/km/media/images/PD029981/995eb503c58a45fbbf2d5eb554a840bf.jpg)
+![OneLink Pro Dock](https://raw.githubusercontent.com/gartempe/MacOS-Thinkpad-Yoga-12/master/images/onelinkprodock.jpg)
+
+If you plan to use your Thinkpad Yoga 12 regularly on a desk, this dock is very useful.
+
+It add the follwoing features totally working with MacOS Mojave: Ethernet Gigabit, additional sound output, powered USB Hub with 2 USB2 ports and 4 USB3 ports, Display Port, DVI port.
+Everything is hotplug.
+
+
