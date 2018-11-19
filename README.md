@@ -457,14 +457,16 @@ defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
 
 2. Fine tune font smoothing
 
+To read the actual setting:
 ```
 defaults read NSGlobalDomain AppleFontSmoothing
 ```
 
-You can set it to 1, 2, 3 or 4
+You can set it to 1, 2, 3 or 4. I've used 3 on mine.
 ```
 defaults write NSGlobalDomain AppleFontSmoothing -int 3
 ```
+You'll need to either reboot your laptop or close the session an log on again, in order to see any change.
 
 -----------
 
