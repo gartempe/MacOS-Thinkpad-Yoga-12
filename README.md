@@ -109,7 +109,7 @@ While waiting for the internal wifi replacement card to arrive, I've used a USB 
 - VoodooPS2Controller.kext
 - WhateverGreen.kext
 - Sinetek-rtsx kext for PCI SD-Card reader. Sources: https://github.com/syscl/Sinetek-rtsx (fork of https://github.com/sinetek/Sinetek-rtsx ). I've used the build from this repository: https://github.com/Maxcj/Hasee-OS-X
-It works somehow...
+It works somehow... (note I've taken the release 2018.11.05
 
 ### 2. Hotpaches
 
