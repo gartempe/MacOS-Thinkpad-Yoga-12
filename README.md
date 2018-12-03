@@ -97,10 +97,7 @@ While waiting for the internal wifi replacement card to arrive, I've used a USB 
 ### 2. Kexts used
 
 - ACPIBatteryManager.kext
-- ~~AHCIPortInjector.kext~~
 - AppleBacklightFixup.kext
-- CodecCommander.kext
-- HDMIAudio.kext
 - HibernationFixup.kext
 - IntelMausiEthernet.kext
 - Lilu.kext
@@ -111,8 +108,8 @@ While waiting for the internal wifi replacement card to arrive, I've used a USB 
 - VoodooHDA.kext
 - VoodooPS2Controller.kext
 - WhateverGreen.kext
-
-
+- Sinetek-rtsx kext for PCI SD-Card reader. Sources: https://github.com/syscl/Sinetek-rtsx (fork of https://github.com/sinetek/Sinetek-rtsx ). I've used the build from this repository: https://github.com/Maxcj/Hasee-OS-X
+It works somehow...
 
 ### 2. Hotpaches
 
