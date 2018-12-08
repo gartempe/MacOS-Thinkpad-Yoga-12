@@ -52,6 +52,7 @@ If you get error message "secure flash athentication failed" while updating the 
 |Wifi|Intel Wifi -> Should be replaced by a Broadcom compatible WLAN card|
 |Touch panel|Synaptics Touch Digitizer V04 (USB Internal port)|
 |Stylus digitizer|FHD 1920x1080 (12.5 英寸)|
+|Sensor Hub|ST Sensor Hub: gyroscope, Accelerometer, rotation detection, luminosity detection..|
 |SD Card reader|Realtek RTS5227 PCI Express Card Reader|
 |Camera|CON4B2E72 Integrated Camera (USB Internal port)|
 |Extension Port|Onelink Dock port for extension module [Onelink Pro Dock](https://support.lenovo.com/us/en/solutions/pd029981)|
