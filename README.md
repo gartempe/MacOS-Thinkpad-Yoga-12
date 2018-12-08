@@ -66,7 +66,7 @@ CPU, Graphic Card, Power Management, Battery, Sleep, Camera, Screen (FHD), brigh
 - Tablet digitzer (with stylus): recognized as a mouse with button
 - SD Card reader: a driver is under development, but not yet stable enough
 
-#### WIFI alternatives:
+#### WIFI :
 Default Intel Wifi M.2 card is replaced by a Broadcom BCM94352Z card.
 Thinkpad Yoga 12 M.2 wifi port is E keyed, so it's compatible with both A+E and E keys cards. So you can either use in it:
 
@@ -75,7 +75,8 @@ Thinkpad Yoga 12 M.2 wifi port is E keyed, so it's compatible with both A+E and 
 
 So if you find a good price opportunity on Lenovo's BCM94352Z card, you can go for it on Yoga 12 ;) *This is not the case for every laptops*
 
-While waiting for the internal wifi replacement card to arrive, I've used a USB wifi key TP-Link TL-WN725N. Mine is TL-WN725N **V2** (and V3 does also work). It works pretty well, while it's limited to Wifi-N (one band) at 150Mbps and occupy one of the two USB port available on this laptop. Note: for V2 of this adapter TP-Link recommnends the specific V2 of its driver. The V2 driver is unstable as hell, use instead V3 driver even for a V2 adapter (it works pretty well). Driver URL: https://www.tp-link.com/us/download/TL-WN725N_V3.html
+##### WIFI alternative :
+While waiting for the internal wifi replacement card to arrive, I've used a USB wifi key TP-Link TL-WN725N. Mine is TL-WN725N **V2** (and V3 does also work). It works pretty well, while it's limited to Wifi-N (one band) at 150Mbps and occupy one of the two USB port available on this laptop. Note: for V2 of this adapter TP-Link recommnends the specific V2 of its driver. But the V2 driver is unstable as hell, use instead V3 driver even for a V2 adapter (it works pretty well). Driver URL: https://www.tp-link.com/us/download/TL-WN725N_V3.html
 
 
 
