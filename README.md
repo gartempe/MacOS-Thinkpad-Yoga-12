@@ -42,18 +42,20 @@ If you get error message "secure flash athentication failed" while updating the 
 
 ### 3. Know your hardware
 
-- CPU: Intel Core i-5 5200U
-- GFX: Intel HD Graphics 5500
-- Display 12.5" FHD IPS LCD (VendorID: 30e4 | ProductID: 437) [LG Display LP125WF2-SPB2](http://www.panelook.com/LP125WF2-SPB2_LG%20Display_12.5_LCM_overview_23372.html)
-- Wifi Intel -> Should be replaced by a Broadcom compatible WLAN card
-- Intel HD Audio (Conexant CX22752 Audio Driver)
-- 8GB Ram
-- Realtek RTS5227 PCI Express Card Reader
-- Synaptics Touch Digitizer V04 (USB Internal port)
-- CON4B2E72 Integrated Camera (USB Internal port)
+|Compenent|Reference|
+|---|---|
+|CPU|Intel Core i-5 5200U|
+|RAM|8GB Ram|
+|GFX|Intel HD Graphics 5500|
+|Sound|Intel HD Audio (Conexant CX22752 Audio Driver)|
+|Display|12.5" FHD IPS LCD (VendorID: 30e4 - ProductID: 437) [LG Display LP125WF2-SPB2](http://www.panelook.com/LP125WF2-SPB2_LG%20Display_12.5_LCM_overview_23372.html)|
+|Wifi|Intel Wifi -> Should be replaced by a Broadcom compatible WLAN card|
+|Touch panel|Synaptics Touch Digitizer V04 (USB Internal port)|
+|Stylus digitizer|FHD 1920x1080 (12.5 英寸)|
+|SD Card reader|Realtek RTS5227 PCI Express Card Reader|
+|Camera|CON4B2E72 Integrated Camera (USB Internal port)|
+|Extension Port|Onelink Dock port for extension module [Onelink Pro Dock](https://support.lenovo.com/us/en/solutions/pd029981)|
 
-- 
-- Onelink Dock port for extension module [Onelink Pro Dock](https://support.lenovo.com/us/en/solutions/pd029981)
 
 #### What will work:
 CPU, Graphic Card, Power Management, Battery, Sleep, Camera, Screen (FHD), brightness, HiDPI, Keyboard, Trackpad and Trackpoint, Sound, USB ports, HDMI port, HDMI Audio-Out, Onelink Pro Dock (USB2/USB3, DisplayPort, DVI, Ethernet).
