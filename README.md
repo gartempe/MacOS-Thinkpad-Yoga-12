@@ -459,3 +459,17 @@ It adds the follwoing features totally working with MacOS Mojave: main power rep
 *Note: I've tested everything except DVI port, but as FB Patcher reports 4 framebuffers including one disabled (set as dummy), I'm pretty sure it's possible to enable the framebuffer for DVI port.*
 
 
+Sleep:
+
+https://www.tonymacx86.com/threads/guide-native-power-management-for-laptops.175801/
+
+```
+sudo pmset -a hibernatemode 0
+sudo rm /var/vm/sleepimage
+sudo mkdir /var/vm/sleepimage
+```
+
+```
+sudo pmset -a standby 0
+sudo pmset -a autopoweroff 0
+```
